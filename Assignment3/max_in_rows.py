@@ -25,7 +25,7 @@ def max_in_row(root: TreeNode) -> list[int]:
     
     return result
 
-# NORMAL
+# NORMAL CASE
 TEST_1 = TreeNode(4)
 node = TreeNode(2)
 TEST_1.add(TEST_1, node)
@@ -42,7 +42,7 @@ TEST_1.add(TEST_1, node)
 print(max_in_row(TEST_1))
 print()
 
-# ALL NEGATIVE
+# CHECK ALL NEGATIVE
 TEST_2 = TreeNode(0)
 node = TreeNode(-3)
 TEST_2.add(TEST_2, node)
@@ -59,7 +59,7 @@ TEST_2.add(TEST_2, node)
 print()
 print(max_in_row(TEST_2))
 
-# NORMAL
+# NORMAL CASE
 TEST_3 = TreeNode(3)
 node = TreeNode(1)
 TEST_3.add(TEST_3, node)
@@ -68,13 +68,12 @@ TEST_3.add(TEST_3, node)
 print()
 print(max_in_row(TEST_3))
 
-# SIZE 0
+# CHECK SIZE 0
 TEST_4 = None
 print()
 print(max_in_row(TEST_4))
 
-
-# SIZE 1
+# CHECK SIZE 1
 TEST_5 = TreeNode(3)
 print()
 print(max_in_row(TEST_5))

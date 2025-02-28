@@ -29,7 +29,7 @@ def balanceBST(root: TreeNode) -> TreeNode:
     bst_to_arr(root, arr)
     return arr_to_bst(arr, 0, len(arr))
 
-
+# NORMAL CASE
 TEST_1 = TreeNode(7)
 node = TreeNode(6)
 TEST_1.add(TEST_1, node)
@@ -37,11 +37,11 @@ node = TreeNode(5)
 TEST_1.add(TEST_1, node)
 node = TreeNode(4)
 TEST_1.add(TEST_1, node)
-
 TEST_1 = balanceBST(TEST_1)
 BSF(TEST_1)
 print()
 
+# NORMAL CASE
 TEST_2 = TreeNode(3)
 node = TreeNode(2)
 TEST_2.add(TEST_2, node)
@@ -51,7 +51,6 @@ node = TreeNode(1)
 TEST_2.add(TEST_2, node)
 node = TreeNode(5)
 TEST_2.add(TEST_2, node)
-
 TEST_2 = balanceBST(TEST_2)
 BSF(TEST_2)
 print()
