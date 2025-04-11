@@ -17,7 +17,7 @@ Approach:
 
 - check if each new node is destination, returning true if yes. If we go through every node, return false
 
-# ----------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------
 
 # 2. Longest Cycle in a Graph
 
@@ -32,7 +32,7 @@ Approach:
 - we keep a visited map outside of the node loop
   - no reason to revisit a node, as its either a cycle we seen (not bigger), or leads nowhere
 
-# ----------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------
 
 # 4. All Paths From Source to Target
 
@@ -55,7 +55,7 @@ Approach:
 - if a path reaches node n-1, we then add that path to the result.
 - Using a reference arg to the result, to be able to add it anywhere in the recursion stack
 
-# ----------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------
 
 # 5. Pow (x,n)
 
