@@ -2,11 +2,11 @@ def longestCycle(edges: list[int]) -> int:
     visited = [False] * len(edges)
     result = -1
 
-    for node in range(len(edges)):
-        if node in visited:
+    for start in range(len(edges)):
+        if start in visited:
             continue
 
-        curr = node
+        curr = start
         path = {}
         distance = 0
 

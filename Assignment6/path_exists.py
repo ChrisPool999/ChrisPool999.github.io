@@ -25,6 +25,11 @@ def validPath(n: int, edges: list[list[int]], source: int, destination: int) -> 
 
     return False
 
+s = "ab#c"
+t = "ad#c"
+
+exit()
+
 # Basic tests
 print(validPath(3, [[0,1],[1,2],[2,0]], 0, 2)) # expects True
 print(validPath(6, [[0,1],[0,2],[3,5],[5,4],[4,3]], 0, 5)) # expects False
